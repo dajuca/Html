@@ -1,28 +1,39 @@
-.paragraphe
+.para
 
 {
-	color: blue
+    color: green
 }
-.headers
+
+*
+{ 
+
+width: 500px;
+text-align: justify;
+margin: 25px;
+font-size: 15px;
+padding: 2px;
+margin-left:150px;
+
+}
+
+h1
 
 { 
-position: absolute;
-left: 0,5;
-top: 0,5
-transform: translate3d(-50%, -50%, 0);
 
-}
-*
-@font-face {
-    font-family: 'ambleregular';
-    src: url('fonts/Amble-Regular-webfont.eot');
-    src: url('fonts/Amble-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/Amble-Regular-webfont.woff2') format('woff2'),
-         url('fonts/Amble-Regular-webfont.woff') format('woff'),
-         url('fonts/Amble-Regular-webfont.ttf') format('truetype'),
-         url('fonts/Amble-Regular-webfont.svg#ambleregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
+width: 500px;
+border 1px solid black;
+text-align: justify;
+margin: 25px;
+font-size: 30px;
 }
 
+h2
+
+{ 
+
+width: 500px;
+border 1px solid black;
+text-align: justify;
+margin: 25px;
+font-size: 20px;
+}
