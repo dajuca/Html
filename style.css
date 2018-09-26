@@ -1,9 +1,18 @@
-*
+.paragraphe
+
 {
-	color: 
+	color: blue
+}
+.headers
+
+{ 
+position: absolute;
+left: 0,5;
+top: 0,5
+transform: translate3d(-50%, -50%, 0);
 
 }
-
+*
 @font-face {
     font-family: 'ambleregular';
     src: url('fonts/Amble-Regular-webfont.eot');
